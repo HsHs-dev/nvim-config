@@ -76,9 +76,9 @@ vim.cmd([[set formatoptions-=cro]])
 -- vim.o.autocomplete = true   -- uncomment to try native completion
 
 -- fixing C Indentation
-vim.api.nvim_create_autocmd("FileType", {
-	pattern = { "c", "cpp" },
-	callback = function()
-		vim.bo.cindent = true
-	end,
-})
+-- vim.api.nvim_create_autocmd("FileType", {
+-- 	pattern = { "c", "cpp" },
+-- 	callback = function()
+-- 		vim.bo.cindent = true
+-- 	end,
+-- })
